@@ -55,15 +55,19 @@ a {
 /* logo dan navbar menu */
 .nav {
     display: flex;
+    background-color: salmon;
     justify-content: space-between;
-    padding: 2rem 0;
+    padding: 2rem 3rem;
     transition: 0.2s ease-in-out;
+    font-size: 200%;
+    color: black;
 }
 
 .nav ul {
     list-style: none;
     display: flex;
     gap: 3rem;  
+    color: #000000;
 }
 
 .logo {
@@ -75,11 +79,12 @@ a {
 }
 
 .logo a {
-    color: rgb(56, 69, 56);
+    color: #0c0950;
+    font-size: 150%;
 }
 
 nav ul li a {
-    color: rgb(92, 108, 89);
+    color: #161179;
 }
 
 /* home section */
@@ -88,7 +93,10 @@ nav ul li a {
     display: grid;
     grid-template-columns: 1fr 1fr;
     align-items: center;
-    background-color: rgb(255, 255, 255);
+    /* background-image: url(asset/jmb.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover; */
+    background-color: rgba(255, 255, 255, 0.2);
 }
 
 .home_name {
@@ -158,7 +166,7 @@ section {
     }
 
     .home_right img {
-        width: 80%;
+        width: 100%;
     }
 
     p {
@@ -169,7 +177,7 @@ section {
 
 /* About Section */
 #about {
-    background-color: rgb(175, 189, 179);
+    background-color: salmon;
     padding: 5rem 0;   
 }
 
@@ -205,17 +213,17 @@ section {
 .about {
     padding: 3rem 2rem;
     text-align: center;
-    background: black;
+    background: ;
     border-radius: 0.7rem;
 }
 
 .about h4 {
-    color: rgba(229, 222, 222, 0.409);
+    color: #0c0950;
     margin: 0.5rem 0;
 }
 
 .about p {
-    color: white;
+    color: #161179;
 }
 
 .about_icon {
@@ -298,14 +306,14 @@ h2 {
     width: 55%;
 }
 
-.progress-bar.html {
+.progress-bar.hack {
     background-color: #a4bda4;
-    width: 80%;
+    width: 76%;
 }
 
-.progress-bar.figma {
+.progress-bar.char {
     background-color: #a4bda4;
-    width: 85%;
+    width: 97%;
 }
 
 .progress-bar.communication {
@@ -387,7 +395,7 @@ button:hover {
 footer {
     margin-bottom: 0;
     padding: 4rem 0;
-    background: rgb(130, 150, 136);
+    background: salmon;
     text-align: center; /* Meratakan teks di tengah */
 }
 
