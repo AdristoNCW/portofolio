@@ -1,0 +1,205 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>portofolio | Adristo Najendra Chiesta Wyasa</title>
+    <link rel="shortcut icon" href="asset/logoic.jpeg" type="jpeg" />
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <!-- header -->
+    <header>
+      <div class="main_container">
+        <div class="nav">
+          <div class="logo">
+            <a href="#">Web profile</a>
+          </div>
+
+          <nav>
+            <ul>
+              <li><a href="#home">Home</a></li>
+              <li><a href="#about">About</a></li>
+              <li><a href="#skills">Skills</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </nav>
+        </div>
+        <section id="home">
+          <div class="home_left">
+            <h3 class="pretitle">Halo guys! my name is</h3>
+            <h1 class="home_name">ADRISTO NAJENDRA CHIESTA WYASA</h1>
+            <p>
+              I am great people. I not have criminal record because i'm is
+              plice's bestfriend. choice me to be an elite global.
+            </p>
+            <br />
+            <a href="#sosmed">
+              <button class="btn">CLICK!</button>
+            </a>
+          </div>
+          <div class="home_right">
+            <img src="asset/pp lanang.jfif" alt="profile picture" />
+          </div>
+        </section>
+      </div>
+    </header>
+    <!-- end of header -->
+
+    <!-- about me  -->
+    <section id="about">
+      <div class="main_container">
+        <h2 class="section_title_about">About me</h2>
+        <p style="text-align: center">
+          I'm never korup. I'm good. I'm have a dream to be pirates king and
+          crush other spaces. All marvel member and president of america is my
+          crew. You can't fight with me. Because i'm from indonesia. Btw i'm
+          anti jokowi.
+        </p>
+        <br />
+        <div class="grid_3">
+          <!-- about 1 -->
+          <div class="about">
+            <div class="about_icon">
+              <img src="asset/html.png" alt="about 1" />
+            </div>
+            <h4>HTML</h4>
+            <br />
+            <p>
+              HTML, or HyperText Markup Language, is the foundational language
+              used to create and structure content on the web. It uses a system
+              of tags and attributes to define elements like headings,
+              paragraphs, links, images, and more. For example, the "p" tag is
+              used for paragraphs, while "a" creates hyperlinks. HTML works
+              alongside CSS (for styling) and JavaScript (for interactivity) to
+              build web pages. It follows a hierarchical structure, starting
+              with the `html` tag, which contains `head` (metadata) and `body`
+              (visible content) sections. Simple yet powerful, HTML is essential
+              for crafting user-friendly websites and forms the basis of modern
+              web development.
+            </p>
+          </div>
+          <!-- about 2 -->
+          <div class="about">
+            <div class="about_icon">
+              <img src="asset/css.png" alt="about 2" />
+            </div>
+            <h4>CSS</h4>
+            <br />
+            <p>
+              CSS (Cascading Style Sheets) is used to design and enhance the
+              visual presentation of HTML content on the web. It controls
+              elements like colors, fonts, layouts, margins, and spacing, making
+              pages visually appealing. It separates design from content,
+              enabling easier maintenance and updates. CSS styles are applied
+              using selectors and properties, either inline, within the tag, or
+              via an external stylesheet. It also supports responsive design,
+              ensuring websites work well on various devices and screen sizes.
+              This flexibility makes CSS a cornerstone of modern web design.
+            </p>
+          </div>
+          <!-- about 3/ -->
+          <div class="about">
+            <div class="about_icon">
+              <img src="asset/js.jpeg" alt="about 3" />
+            </div>
+            <h4>javascript</h4>
+            <br />
+            <p>
+              javascript is brain of web and make from java. for make web
+              tricky.
+            </p>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end about -->
+    <!-- skill -->
+    <section class="skills" id="skills">
+      <div class="section_heading text_center">
+        <h2>My Skills</h2>
+      </div>
+      <div class="skill_content">
+        <div class="container">
+          <div class="row">
+            <div class="col-md-6">
+              <div class="single_skill_content">
+                <div class="barWrapper">
+                  <span class="progressText">Economical power</span>
+                  <div class="single_progress_txt">
+                    <div class="progress">
+                      <div class="progress_bar money"></div>
+                    </div>
+                    <h3>70%</h3>
+                  </div>
+                </div>
+                <div class="barWrapper">
+                  <span class="progressText">relationship with goverment</span>
+                  <div class="single_progress_txt">
+                    <div class="progress">
+                      <div class="progress_bar relation"></div>
+                    </div>
+                    <h3>88%</h3>
+                  </div>
+                </div>
+                <div class="barWrapper">
+                  <span class="progressText">Individual power</span>
+                  <div class="single_progress_txt">
+                    <div class="progress">
+                      <div class="progress_bar self"></div>
+                    </div>
+                    <h3>55%</h3>
+                  </div>
+                </div>
+                <!--  -->
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+    <!-- end of skill -->
+    <!-- Contact -->
+    <section id="contact" class="contact">
+      <div class="section_heading text_center">
+        <h2>Contact us</h2>
+      </div>
+      <div class="container">
+        <form id="contactForm">
+          <div class="form_group">
+            <label for="name">Name</label>
+            <input type="text" id="name" name="name" required />
+          </div>
+          <div class="form_group">
+            <label for="email">Email</label>
+            <input type="text" id="email" name="email" required />
+          </div>
+          <div class="form_group">
+            <label for="message">Message</label>
+            <textarea id="message" name="message" required></textarea>
+          </div>
+          <button type="submit">send</button>
+        </form>
+      </div>
+    </section>
+    <!-- end of contact -->
+    <!-- footer -->
+    <footer>
+      <div class="footer_container">
+        <div class="footer_icon">
+          <a href="">
+            <img src="asset/ig.jpeg" alt="ig saya" width="24" height="24" />
+          </a>
+          <a href="">
+            <img src="asset/discord.png" alt="discord saya" width="24" height="24" />
+          </a>
+          <a href="">
+            <img src="asset/github.png" alt="github saya" width="24" height="24" />
+          </a>
+        </div>
+        <p>&#169; adristo najendra, all right reservered</p>
+      </div>
+    </footer>
+    <!-- end of footer -->
+  </body>
+</html>
