@@ -22,12 +22,24 @@ a {
     margin: 0 auto;
 }
 
+header{
+    background-image: url(asset/download.jpeg);
+    background-repeat: no-repeat;
+    background-size: cover;
+}
+
+.btn:hover, a:hover, a img:hover, ul li:hover {
+    transform: scale(1.1);
+    transition: transform 0.3s ease-in-out;
+}
+
 /* button */
 .btn {
     padding: 1rem 1.5rem;
     background: rgb(56, 69, 56);
     border: 1.5px solid rgb(3, 3, 3);
     cursor: pointer;
+    justify-content: center;
 }
 
 /* title */
@@ -57,7 +69,7 @@ a {
     display: flex;
     background-color: salmon;
     justify-content: space-between;
-    padding: 2rem 3rem;
+    padding: 1rem 2rem;
     transition: 0.2s ease-in-out;
     font-size: 200%;
     color: black;
@@ -68,6 +80,16 @@ a {
     display: flex;
     gap: 3rem;  
     color: #000000;
+}
+
+.nav {
+    position: fixed;
+    top: 0;
+    left: 0;
+    width: 100%;
+    background-color: darksalmon; /* Transparan sedikit untuk efek modern */
+    box-shadow: 0px 4px 6px rgba(0, 0, 0, 0.1);
+    z-index: 1000;
 }
 
 .logo {
@@ -89,19 +111,23 @@ nav ul li a {
 
 /* home section */
 #home {
-    height: 720px;
+    height: 800px;
     display: grid;
     grid-template-columns: 1fr 1fr;
+    justify-content: space-between;
     align-items: center;
+    margin-top: 5rem;
     /* background-image: url(asset/jmb.jpeg);
-    background-repeat: no-repeat;
-    background-size: cover; */
+    background-repeat: no-repeat;*/
+    background-size: cover;
     background-color: rgba(255, 255, 255, 0.2);
 }
 
 .home_name {
     font-size: 3rem;
+    font-family: 'poppins', sans-serif;
     font-weight: 700;
+    letter-spacing: 1.5px;
     margin: 0.5rem 0 1rem;
     color: rgb(56, 69, 56);
 }
@@ -153,6 +179,10 @@ section {
     .home_name {
         font-size: 2.5rem;
     }
+}
+.home_left p {
+    font-family: 'Courier New', Courier, monospace;
+    font-size: 120%;
 }
 
 @media (max-width: 480px) {
@@ -213,7 +243,7 @@ section {
 .about {
     padding: 3rem 2rem;
     text-align: center;
-    background: ;
+    background-color: #fbe4d6;
     border-radius: 0.7rem;
 }
 
@@ -288,30 +318,32 @@ h2 {
     height: 100%;
     border-radius: 15px 0 0 15px;
     transition: width 0.4s ease;
+    padding: 10;
+    margin-bottom: 300  px;
 }
 
 /* Warna untuk masing-masing skill dan sesuai persentase */
 .progress_bar.money {
     background-color: #a4bda4;
-    width: 70%;
+    width: 93%;
 }
 
-.progress_bar.relation {
+.progress_bar.life {
     background-color: #a4bda4;
-    width: 88%;
+    width: 90%;
 }
 
 .progress_bar.self {
     background-color: #a4bda4;
-    width: 55%;
+    width: 65%;
 }
 
-.progress-bar.hack {
+.progress_bar.other {
     background-color: #a4bda4;
-    width: 76%;
+    width: 97%;
 }
 
-.progress-bar.char {
+.progress_bar.char {
     background-color: #a4bda4;
     width: 97%;
 }
@@ -347,7 +379,7 @@ h3 {
 /*---- CONTACT----*/
 .contact {
     padding: 60px 15%; /* Sesuaikan padding horizontal di sini */
-    background-color: #cacdca91;
+    background-color: #fbe4d6;
 }
 
 .section_heading {
