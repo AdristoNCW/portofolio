@@ -216,8 +216,8 @@ section {
     margin: 1rem 0 4rem;
 }
 
-.about_icon img {
-    width: 60px; /* Ganti dengan ukuran yang diinginkan */
+.about img {
+    width: 200px; /* Ganti dengan ukuran yang diinginkan */
     height: auto; /* Memastikan proporsi gambar tetap terjaga */
     display: block; /* Menghapus ruang di bawah gambar */
     margin: 0 auto; /* Memusatkan gambar dalam kontainer */
@@ -236,7 +236,7 @@ section {
     display: grid;
     grid-template-columns: repeat(auto-fit, minmax(250px, 1fr)); /* Grid yang fleksibel */
     gap: 3rem; /* Jarak antar elemen */
-    /* padding: 20px; */
+    padding: 20px;
     justify-content: center; /* Pusatkan elemen jika kurang dari 3 */
 }
 
@@ -345,7 +345,7 @@ h2 {
 
 .progress_bar.char {
     background-color: #a4bda4;
-    width: 97%;
+    width: 87%;
 }
 
 .progress-bar.communication {
